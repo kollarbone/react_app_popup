@@ -1,0 +1,116 @@
+.ProfileContent__dark {
+  display: grid;
+  grid-template-areas:
+    "back back"
+    "profile posts";
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 150px 1fr;
+}
+
+.profileName__dark {
+  font-size: 19px;
+  margin: auto;
+  color: #fff;
+}
+
+.myImage__dark {
+  color: #fff;
+  padding-top: 20px;
+  margin-left: 20px;
+  font-size: 19px;
+}
+
+.myPost__dark {
+  font-size: 19px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+.newPost__dark {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.newPost__dark textarea {
+  outline: none;
+  border: 1px solid #c1d7db;
+  width: 99%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #3c3e3e;
+}
+
+.myPosts__dark {
+  position: relative;
+  font-size: 19px;
+  border-bottom: 2px solid #c1d7db;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.posts__dark {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .ProfileContent__dark {
+    display: grid;
+    grid-template-areas:
+      "back back"
+      "profile profile"
+      "images posts";
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 1fr;
+  }
+
+  .profileName__dark {
+    font-size: 18px;
+    margin: auto;
+    color: #fff;
+  }
+
+  .myImage__dark {
+    color: #fff;
+    padding-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+
+  .myPost__dark {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  .newPost__dark {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .newPost__dark textarea {
+    outline: none;
+    border: 1px solid #c1d7db;
+    width: 99%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #3c3e3e;
+  }
+
+  .myPosts__dark {
+    position: relative;
+    font-size: 18px;
+    border-bottom: 2px solid #c1d7db;
+    color: #fff;
+  }
+
+  .posts__dark {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+  }
+}

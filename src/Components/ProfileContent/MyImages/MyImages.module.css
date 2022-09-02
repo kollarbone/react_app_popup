@@ -1,0 +1,12 @@
+.image img {
+  margin-left: 10px;
+  border-radius: 10px;
+  width: 200px;
+}
+@media only screen and (max-width: 768px) {
+  .image img {
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 130px;
+  }
+}

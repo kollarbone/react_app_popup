@@ -1,0 +1,78 @@
+.peopleContent__dark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.cardinfo__dark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  width: 200px;
+  color: #fff;
+}
+
+.details__dark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid #cce3e8;
+  background-color: #3c3e3e;
+}
+
+.pages__dark span {
+  padding: 10px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.pages__dark .selected {
+  background-color: #c1d7db;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .peopleContent__dark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #000;
+  }
+
+  .cardinfo__dark {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    width: 130px;
+    color: #fff;
+  }
+
+  .details__dark {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #cce3e8;
+    background-color: #3c3e3e;
+  }
+
+  .pages__dark span {
+    padding: 10px;
+    margin-top: 10px;
+    color: #fff;
+  }
+
+  .pages__dark .selected {
+    background-color: #c1d7db;
+    border-radius: 50%;
+  }
+}

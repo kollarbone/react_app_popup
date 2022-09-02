@@ -1,0 +1,64 @@
+.dialogs_dark {
+  grid-area: dialog;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.dialogs__dark a {
+  color: #fff;
+}
+
+.messages_items__dark {
+  display: grid;
+  grid-template-areas: "dialog message";
+
+  grid-template-columns: 2fr 3fr;
+}
+
+.messages__dark {
+  margin-top: 10px;
+  overflow: auto;
+  height: 600px;
+  color: #fff;
+}
+
+.text_message__dark {
+  display: inline-flex;
+  margin-left: 2%;
+  margin-top: 1%;
+  padding: 2%;
+  background-color: #3c3e3e;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .dialogs__dark {
+    grid-area: dialog;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .dialogs__dark a {
+    color: #fff;
+  }
+
+  .activeDialog {
+    background-color: rgba(211, 219, 221, 0.5);
+  }
+
+  .sentMessage {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .messages__dark {
+    margin-top: 10px;
+    overflow: auto;
+    height: 600px;
+  }
+}

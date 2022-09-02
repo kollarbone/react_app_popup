@@ -1,0 +1,145 @@
+.messages_items {
+  display: grid;
+  grid-template-areas: "dialog message";
+
+  grid-template-columns: 2fr 3fr;
+}
+
+.dialogs {
+  grid-area: dialog;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.dialogs a {
+  color: #000;
+}
+.activeDialog {
+  grid-area: message;
+}
+
+.text {
+  grid-area: text;
+}
+
+.activeDialog {
+  display: grid;
+}
+
+.activeDialog {
+  background-color: rgba(211, 219, 221, 0.5);
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.sentMessage {
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: lighter;
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+}
+
+.button {
+  border: none;
+  border-radius: 50px;
+  color: white;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.messages {
+  margin-top: 10px;
+  overflow: auto;
+  height: 600px;
+}
+
+@media only screen and (max-width: 768px) {
+  .messages_items {
+    display: grid;
+    grid-template-areas: "dialog message";
+
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .dialogs {
+    grid-area: dialog;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .dialogs a {
+    color: #000;
+  }
+  .activeDialog {
+    grid-area: message;
+  }
+
+  .text {
+    grid-area: text;
+  }
+
+  .activeDialog {
+    display: grid;
+  }
+
+  .activeDialog {
+    background-color: rgba(211, 219, 221, 0.5);
+  }
+
+  .sentMessage {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text {
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: lighter;
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+  }
+
+  .button {
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .messages {
+    margin-top: 10px;
+    overflow: auto;
+    height: 600px;
+  }
+}

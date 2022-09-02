@@ -1,0 +1,47 @@
+.messages_item .message {
+  font-size: 19px;
+}
+
+.message img {
+  width: 50px;
+  border-radius: 50px;
+}
+
+.message {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.text_message {
+  display: inline-flex;
+  margin-left: 2%;
+  margin-top: 1%;
+  padding: 2%;
+  background-color: #cce3e8;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .messages_item .message {
+    font-size: 18px;
+  }
+
+  .message img {
+    width: 30px;
+    border-radius: 50px;
+  }
+
+  .message {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .text_message {
+    display: inline-flex;
+    margin-left: 2%;
+    margin-top: 1%;
+    padding: 2%;
+    background-color: #cce3e8;
+    border-radius: 50px;
+  }
+}

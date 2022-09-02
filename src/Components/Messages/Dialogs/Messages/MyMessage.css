@@ -1,0 +1,23 @@
+.mymessages_item .mymessage {
+  font-size: 19px;
+}
+
+.mymessage img {
+  width: 50px;
+  border-radius: 50px;
+}
+
+.mymessage {
+  padding-right: 20px;
+  padding-top: 20px;
+  text-align: right;
+}
+
+.mytext_message {
+  display: inline-flex;
+  margin-right: 2%;
+  margin-top: 1%;
+  padding: 2%;
+  background-color: rgb(211, 219, 221);
+  border-radius: 50px;
+}

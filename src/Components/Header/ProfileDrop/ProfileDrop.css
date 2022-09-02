@@ -1,0 +1,113 @@
+.dropdowm_profile {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #c1d7db;
+  width: fit-content;
+}
+
+.dropdowm_profile__dark {
+  background-color: #3c3e3e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #c1d7db;
+  width: fit-content;
+}
+
+.profileHello {
+  font-size: 18px;
+}
+
+.dropdowm_profile__dark .profileHello {
+  font-size: 18px;
+  color: white;
+}
+.profileName {
+  font-size: 18px;
+}
+.dropdowm_profile__dark .profileName {
+  font-size: 18px;
+  color: white;
+}
+.profileSettings {
+  font-size: 16px;
+  padding: 5px;
+}
+.profileSettings:hover {
+  color: #c1d7db;
+}
+.dropdowm_profile__dark .profileSettings {
+  font-size: 16px;
+  color: white;
+}
+.exitAccount {
+  font-size: 16px;
+  border: none;
+  width: fit-content;
+  background-color: #c1d7db;
+  border-radius: 50px;
+  color: white;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.dropdowm_profile__dark .exitAccount {
+  font-size: 16px;
+  color: white;
+  border: none;
+  width: fit-content;
+  background-color: #c1d7db;
+  border-radius: 50px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .profileHello {
+    font-size: 17px;
+  }
+
+  .dropdowm_profile__dark .profileHello {
+    font-size: 17px;
+    color: white;
+  }
+  .profileName {
+    font-size: 17px;
+  }
+  .dropdowm_profile__dark .profileName {
+    font-size: 17px;
+    color: white;
+  }
+  .profileSettings {
+    font-size: 15px;
+    padding: 5px;
+  }
+  .dropdowm_profile__dark .profileSettings {
+    font-size: 15px;
+    color: white;
+  }
+  .exitAccount {
+    font-size: 15px;
+    border: none;
+    width: fit-content;
+    background-color: #c1d7db;
+    border-radius: 50px;
+    color: white;
+    padding: 5px 15px;
+  }
+  .dropdowm_profile__dark .exitAccount {
+    font-size: 15px;
+    color: white;
+    border: none;
+    width: fit-content;
+    background-color: #c1d7db;
+    border-radius: 50px;
+    padding: 5px 15px;
+  }
+}

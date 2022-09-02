@@ -1,0 +1,176 @@
+.profileBackground img {
+  height: 150px;
+  width: 100%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+
+.profile img {
+  width: 100px;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.profileName {
+  font-size: 19px;
+  margin: auto;
+  color: #000;
+}
+
+.online {
+  color: rgb(77, 191, 226);
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.onlonepoint {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  height: 20px;
+}
+
+.myImage {
+  padding-top: 20px;
+  margin-left: 20px;
+  font-size: 19px;
+}
+
+.photos {
+  position: relative;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: fit-content;
+}
+
+.myImages {
+  position: relative;
+  margin-top: 25px;
+}
+
+.ProfileContent {
+  display: grid;
+  grid-template-areas:
+    "back back"
+    "profile posts";
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 150px 1fr;
+}
+
+.profileThings {
+  grid-area: profile;
+  display: flex;
+  flex-direction: column;
+}
+
+.posts {
+  grid-area: posts;
+}
+
+.profileBackground {
+  grid-area: back;
+}
+
+@media only screen and (max-width: 768px) {
+  .profileBackground img {
+    height: 100px;
+    width: 100%;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .profileInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .profile img {
+    width: 70px;
+    border-radius: 50px;
+  }
+
+  .profileName {
+    font-size: 18px;
+    margin: auto;
+    color: #000;
+  }
+
+  .online {
+    color: rgb(77, 191, 226);
+    font-size: 15px;
+  }
+
+  .onlonepoint {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 20px;
+  }
+
+  .onlonepoint img {
+    width: 10px;
+  }
+
+  .myImage {
+    font-size: 18px;
+  }
+
+  .photos {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: fit-content;
+    flex-direction: column;
+  }
+
+  .myImages {
+    position: relative;
+    grid-area: images;
+    width: fit-content;
+  }
+
+  .ProfileContent {
+    display: grid;
+    grid-template-areas:
+      "back back"
+      "profile profile"
+      "images posts";
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 1fr;
+  }
+
+  .profileThings {
+    grid-area: profile;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .posts {
+    grid-area: posts;
+  }
+
+  .profileBackground {
+    grid-area: back;
+  }
+}

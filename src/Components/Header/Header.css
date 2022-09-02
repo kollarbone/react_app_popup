@@ -1,0 +1,179 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c1d7db;
+}
+.burger {
+  display: none;
+}
+.logo {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo svg {
+  margin-left: 5px;
+  border-radius: 50px;
+  font-size: 25px;
+}
+.logo a {
+  font-size: 35px;
+  color: #282d2e;
+}
+
+.settings svg {
+  position: relative;
+  font-size: 35px;
+}
+.settings {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+}
+.settings:hover {
+  background-color: white;
+}
+.profileicon svg {
+  position: relative;
+  font-size: 35px;
+}
+.profileicon {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+}
+.profileicon:hover {
+  background-color: white;
+}
+.notification svg {
+  position: relative;
+  font-size: 30px;
+}
+
+.notification {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.notification:hover {
+  background-color: white;
+}
+
+.header_icon {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.switchTheme input {
+  transform: scale(2);
+  opacity: 1;
+  cursor: pointer;
+}
+
+.switchTheme {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
+}
+.theme {
+  margin-right: 5px;
+  color: #282d2e;
+}
+.dropdown_hidden {
+  display: none;
+}
+.dropdown_visible {
+  display: block;
+  position: absolute;
+  right: 150px;
+  width: max-content;
+}
+.profile_dropdown_visible {
+  display: block;
+  position: absolute;
+  right: 140px;
+  width: max-content;
+}
+.profile_dropdown_hidden {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c1d7db;
+  }
+  .burger {
+    display: block;
+  }
+  .logo {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo svg {
+    border-radius: 50px;
+    font-size: 15px;
+  }
+  .logo a {
+    font-size: 20px;
+    color: #282d2e;
+  }
+
+  .settings svg {
+    position: relative;
+    font-size: 25px;
+  }
+  .profileicon svg {
+    position: relative;
+    font-size: 25px;
+  }
+  .notification svg {
+    position: relative;
+    font-size: 20px;
+  }
+
+  .header_icon {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .switchTheme input {
+    transform: scale(1.5);
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  .switchTheme {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .theme {
+    display: none;
+  }
+  .dropdown_visible {
+    display: block;
+    position: absolute;
+    right: 20px;
+    width: max-content;
+  }
+  .profile_dropdown_visible {
+    display: block;
+    position: absolute;
+    right: 20px;
+    width: max-content;
+  }
+}

@@ -1,0 +1,8 @@
+.button_back {
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 40px;
+  background-color: unset;
+  margin-top: 5px;
+}

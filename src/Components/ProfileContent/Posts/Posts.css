@@ -1,0 +1,101 @@
+.profilePosts {
+  position: relative;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.myPost {
+  font-size: 19px;
+  margin-bottom: 5px;
+}
+
+.newPost textarea {
+  outline: none;
+  border: 1px solid #c1d7db;
+  width: 99%;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.newPost {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.button {
+  margin-top: 15px;
+  width: fit-content;
+  background-color: #c1d7db;
+}
+
+.addPost {
+  background-color: unset;
+  border: none;
+  font-size: 16px;
+}
+
+.myPosts {
+  position: relative;
+  font-size: 19px;
+  border-bottom: 2px solid #c1d7db;
+  margin-top: 10px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+  .profilePosts {
+    position: relative;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .myPost {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .newPost textarea {
+    outline: none;
+    border: 1px solid #c1d7db;
+    width: 99%;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+  .newPost {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .button {
+    margin-top: 15px;
+    width: fit-content;
+    background-color: #c1d7db;
+    padding: 5px 10px;
+  }
+
+  .addPost {
+    background-color: unset;
+    border: none;
+    font-size: 16px;
+  }
+
+  .myPosts {
+    position: relative;
+    font-size: 18px;
+    border-bottom: 2px solid #c1d7db;
+  }
+
+  .posts {
+    display: flex;
+    flex-direction: column;
+  }
+}

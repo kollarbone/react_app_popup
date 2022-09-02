@@ -1,0 +1,325 @@
+.product {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 0px;
+  gap: 8px;
+  border-radius: 5px;
+  position: relative;
+  width: 170px;
+  height: 289px;
+  background-color: white;
+  margin-bottom: 15px;
+  margin-right: 100px;
+  border: 1px solid #c1d7db;
+}
+.productCard {
+  margin: 0 auto;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: fit-content;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.product_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 154px;
+  height: 195px;
+}
+
+.options {
+  width: 154px;
+  height: 70px;
+}
+
+.product_img {
+  width: 154px;
+  height: 153px;
+}
+
+.product_img img {
+  width: 154px;
+  height: 154px;
+  border-radius: 5px;
+}
+
+.heart {
+  position: absolute;
+  font-size: 24px;
+  left: 130px;
+  top: 133px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 154px;
+  height: 34px;
+}
+
+.product_name {
+  width: 154px;
+  height: 14px;
+
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.product_description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  width: 154px;
+  height: 12px;
+}
+
+.product_code {
+  width: 65px;
+  height: 12px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.product_code__dark {
+  width: 65px;
+  height: 12px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: white;
+}
+.stars svg {
+  font-size: 12px;
+  color: darkorange;
+}
+.stars {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 3px;
+  width: 29px;
+  height: 12px;
+}
+.rating {
+  width: 14px;
+  height: 12px;
+  top: 10px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #000000;
+}
+.rating__dark {
+  width: 14px;
+  height: 12px;
+  top: 10px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: white;
+}
+.product_name {
+  width: 154px;
+  height: 14px;
+
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+.product_name__dark {
+  width: 154px;
+  height: 14px;
+
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: white;
+}
+.price {
+  width: 65px;
+  height: 17px;
+
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+.price__dark {
+  width: 65px;
+  height: 17px;
+
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+}
+.cart_things {
+  display: flex;
+  width: 154px;
+  height: 32px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.option_list {
+  width: 122px;
+  height: 32px;
+  border-radius: 5px 0px 0px 5px;
+  border: 1px solid #c1d7db;
+}
+.option_list__dark {
+  width: 122px;
+  height: 32px;
+  border-radius: 5px 0px 0px 5px;
+  border: 1px solid #c1d7db;
+}
+.option_list p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  bottom: 3px;
+  left: 5px;
+  position: relative;
+}
+.option_list__dark p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  bottom: 3px;
+  left: 5px;
+  position: relative;
+  color: white;
+}
+.cart {
+  width: 32px;
+  height: 32px;
+  left: 122px;
+  background: #7e9166;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.cart svg {
+  font-size: 16px;
+  top: 6px;
+  left: 7px;
+  position: relative;
+  color: white;
+}
+
+.option_list svg {
+  font-size: 8px;
+  position: relative;
+  left: 105px;
+  bottom: 32px;
+}
+.option_list__dark svg {
+  font-size: 8px;
+  position: relative;
+  left: 105px;
+  bottom: 32px;
+  color: white;
+}
+
+.product__dark {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 0px;
+  gap: 8px;
+  border-radius: 5px;
+  position: relative;
+  width: 170px;
+  height: 289px;
+  background-color: #3c3e3e;
+  margin-bottom: 15px;
+  margin-right: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .productCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin-top: 10px;
+  }
+  .product__dark {
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 8px;
+    gap: 8px;
+    border-radius: 5px;
+    position: relative;
+    width: 170px;
+    height: 289px;
+    background-color: #3c3e3e;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+  }
+  .product {
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 8px;
+    gap: 8px;
+    border-radius: 5px;
+    position: relative;
+    width: 170px;
+    height: 289px;
+    background-color: white;
+    margin-bottom: 15px;
+    border: 1px solid #c1d7db;
+    flex-wrap: wrap;
+  }
+}
